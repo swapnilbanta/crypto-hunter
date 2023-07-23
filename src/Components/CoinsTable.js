@@ -49,7 +49,6 @@ const CoinsTable = () => {
 setCoins(data);
     setLoading(false);
   }
-console.log(coins);
   useEffect(() => {
     fetchCoins();
     // eslint-disable-next-line react-hooks/exhaustive-deps
