@@ -97,7 +97,7 @@ if (!coin) return <LinearProgress style={{ backgroundColor: "gold" }} />;
         </Typography>
 
         <Typography variant="subtitle1" className={classes.description}>
-          {(coin?.description.en.split(". ")[0])}.
+          {parser(coin?.description.en.split(". ")[0])}.
         </Typography>
 
         <div className={classes.marketData}>
